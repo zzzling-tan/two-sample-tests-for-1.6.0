@@ -1,5 +1,6 @@
 1. Installation
   If you got error message "unable to execute '/usr/local/bin/gcc': No such file or directory error", you can try: 
-  <b>MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ python setup.py install</b>
-
-2. 
+    MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ python setup.py install
+2. Modify the function gesv() to solve().
+3. Use data.item() instead of data[0].
+4. Find in-place operations that affect grandient calculation and change them to out-of-place operations using function clone().
