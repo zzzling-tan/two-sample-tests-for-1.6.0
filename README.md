@@ -1,6 +1,8 @@
 # two-sample-tests-for-1.6.0
-This project adapts from: https://github.com/josipd/torch-two-sample/blob/master/docs/index.rst
+This project adapts from: https://github.com/josipd/torch-two-sample
 
-I just fix some errors to make two-sample tests work under Pytorch 1.6.0. 
+Copyright (c) 2017, Josip Djolonga
 
-The Jupyter notebook contains six two-sample-tests examples implement on GMM.
+I fixed some errors to make two-sample tests work under Pytorch 1.6.0. 
+
+The Jupyter notebook contains six two-sample-tests implementation on GMM.
