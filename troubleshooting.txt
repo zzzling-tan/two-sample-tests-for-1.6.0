@@ -4,3 +4,10 @@
 2. Modify the function gesv() to solve().
 3. Use data.item() instead of data[0].
 4. Find in-place operations that affect grandient calculation and change them to out-of-place operations using function clone().
+
+Reference:
+[1] https://github.com/pytorch/audio/issues/57
+[2] https://www.kite.com/python/docs/torch.gesv
+[3] https://github.com/pytorch/pytorch/issues/15585
+[4] https://discuss.pytorch.org/t/gru-model-one-of-the-variables-needed-for-gradient-computation-has-been-modified-by-an-inplace-operation/57312/4
+[5] https://github.com/NVlabs/FUNIT/issues/23
