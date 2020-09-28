@@ -1,0 +1,7 @@
+1. Installation
+
+If you got error message "unable to execute '/usr/local/bin/gcc': No such file or directory error", you can try: 
+
+MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ python setup.py install
+
+2. 
