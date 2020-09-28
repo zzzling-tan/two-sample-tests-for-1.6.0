@@ -7,4 +7,3 @@ I fixed some errors to make two-sample tests work under Pytorch 1.6.0.
 
 The Jupyter notebook contains six two-sample-tests implementation on GMM.
 
-Install the package with: MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ python setup.py install
